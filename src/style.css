@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+
+body{
+    background-color: #1E1E1E;
+    min-height: 50vw;
+}
+
+header{
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+.mainMenu{
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+span{
+    color: #1efafe;
+}
+
+.mainMenu>a{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffffd0;
+    font-size: 16px;
+}
+
+.logoButton{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoButton>img{
+    height: 100%;
+    border-radius: 20%;
+    box-shadow: 0px 0px 10px #1efafe;
+}
+
+.logoButton>p{
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 10px;
+    color: #fff;
+    height: max-content;
+}
+
+
+.buttonMein :hover{
+    color: #1efafe;
+    text-shadow: 0px 0px 8px #1efafe;;
+}
+
+.logoButton :hover{
+    color: #1efafe;
+    text-shadow: 0px 0px 8px #1efafe;;
+}
+
+@keyframes top {
+    0%{
+        background-color: #323232;
+        height: 3vw;
+        border-bottom:#1efafe solid 0.1vw;
+        box-shadow: 0px 0px 40px #1efafe;
+    }
+    100%{
+        background-color: #1E1E1E;
+    }
+}
+
+@keyframes untop {
+    0%{
+        background-color: #1E1E1E;
+    }
+    100%{
+        background-color: #323232;
+        height: 3vw;
+        border-bottom:#1efafe solid 0.1vw;
+        box-shadow: 0px 0px 40px #1efafe;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #1efafe;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #323232;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4a0061;
+  }

@@ -1,0 +1,26 @@
+.aboutGalery{
+    padding: 7vw 20vw 0vw  20vw;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-shadow: 0px 0px 3px #fff;
+    color: #fff;
+}
+
+.galery{
+    padding: 2vw 20vw 5vw  20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: max-content;
+    align-items: center;
+}
+
+.galery>img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+
